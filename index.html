@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QMUN'25 - SelaQui International School Model United Nations</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <!-- Enhanced Header without phone number -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <h1 class="logo">QMUN'25</h1>
+                    <p class="school-name elegant-text">SelaQui International School</p>
+                </div>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active" data-page="home">Home</a></li>
+                    <li class="dropdown-wrapper">
+                        <a href="#committees" class="nav-link" data-page="committees">Committees</a>
+                        <div class="dropdown-menu">
+                            <a href="#unsc" class="dropdown-item" data-page="unsc">UNSC</a>
+                            <a href="#disec" class="dropdown-item" data-page="disec">DISEC</a>
+                            <a href="#ecosoc" class="dropdown-item" data-page="ecosoc">ECOSOC</a>
+                            <a href="#aippm" class="dropdown-item" data-page="aippm">AIPPM</a>
+                            <a href="#ipc" class="dropdown-item" data-page="ipc">IPC</a>
+                        </div>
+                    </li>
+                    <li><a href="#registration" class="nav-link" data-page="registration">Registration</a></li>
+                    <li class="dropdown-wrapper">
+                        <a href="#policies" class="nav-link">Policies</a>
+                        <div class="dropdown-menu">
+                            <a href="#dress-code" class="dropdown-item" data-page="dress-code">Dress Code</a>
+                            <a href="#position-paper" class="dropdown-item" data-page="position-paper">Position Paper</a>
+                            <a href="#it-policy" class="dropdown-item" data-page="it-policy">IT Policy</a>
+                        </div>
+                    </li>
+                    <li><a href="#team" class="nav-link" data-page="team">Team</a></li>
+                    <li><a href="#contact" class="nav-link" data-page="contact">Contact</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Enhanced Home Page -->
+        <section id="home" class="page active">
+            <!-- Hero Section with Campus Image -->
+            <section class="hero">
+                <div class="hero-bg">
+                    <img src="school.avif" alt="Campus Amphitheater" class="hero-image">
+                    <div class="hero-overlay"></div>
+                </div>
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 class="hero-title">QMUN'25</h1>
+                        <p class="hero-subtitle elegant-text">10th Edition</p>
+                        <p class="school-subtitle">SelaQui International School Model United Nations</p>
+                        <div class="motto">
+                            <p class="motto-sanskrit">समिधां च समगच्छत्।</p>
+                            <p class="motto-english accent-text">"Seek to unite and bring together"</p>
+                        </div>
+                        <div class="countdown" id="countdown">
+                            <div class="countdown-item">
+                                <span class="countdown-number" id="days">0</span>
+                                <span class="countdown-label">Days</span>
+                            </div>
+                            <div class="countdown-item">
+                                <span class="countdown-number" id="hours">0</span>
+                                <span class="countdown-label">Hours</span>
+                            </div>
+                            <div class="countdown-item">
+                                <span class="countdown-number" id="minutes">0</span>
+                                <span class="countdown-label">Minutes</span>
+                            </div>
+                            <div class="countdown-item">
+                                <span class="countdown-number" id="seconds">0</span>
+                                <span class="countdown-label">Seconds</span>
+                            </div>
+                        </div>
+                        <div class="conference-info">
+                            <p class="conference-dates">November 1–2, 2025</p>
+                            <p class="conference-theme accent-text">Diplomacy in the Digital Age</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Enhanced Committee Preview Section with Centered Layout -->
+            <section class="committee-preview">
+                <div class="container">
+                    <h2>Our Distinguished Committees</h2>
+                    <p class="section-subtitle accent-text">Five prestigious committees addressing the world's most pressing challenges</p>
+                    
+                    <!-- First row: 3 committees -->
+                    <div class="committee-row">
+                        <div class="committee-preview-card" data-committee="unsc" tabindex="0">
+                            <h4>UNSC</h4>
+                            <p class="elegant-text">United Nations Security Council</p>
+                            <p><strong>Chair:</strong> <span class="accent-text">Aarav Dhanuka</span></p>
+                            <p class="agenda-preview">Ensuring Peace and Political Stability in Syria through Conflict De-escalation and Inclusive Transition</p>
+                        </div>
+                        <div class="committee-preview-card" data-committee="disec" tabindex="0">
+                            <h4>DISEC</h4>
+                            <p class="elegant-text">Disarmament & International Security Committee</p>
+                            <p><strong>Chair:</strong> <span class="accent-text">Karan Bhirani</span></p>
+                            <p class="agenda-preview">Peaceful Resolution of Territorial Conflicts and Maritime Security Frameworks</p>
+                        </div>
+                        <div class="committee-preview-card" data-committee="ecosoc" tabindex="0">
+                            <h4>ECOSOC</h4>
+                            <p class="elegant-text">United Nations Economic and Social Council</p>
+                            <p><strong>Chair:</strong> <span class="accent-text">Sarwagya Raj Gupta</span></p>
+                            <p class="agenda-preview">Evaluating Global Impact of Trade Wars and Economic Sanctions</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Second row: 2 committees centered -->
+                    <div class="committee-row committee-row-centered">
+                        <div class="committee-preview-card" data-committee="aippm" tabindex="0">
+                            <h4>AIPPM</h4>
+                            <p class="elegant-text">All India Political Parties Meet</p>
+                            <p><strong>Chair:</strong> <span class="accent-text">Gul Chaudhary</span></p>
+                            <p class="agenda-preview">Assessing the Relevance of the Waqf Act in Secular Democracy</p>
+                        </div>
+                        <div class="committee-preview-card" data-committee="ipc" tabindex="0">
+                            <h4>IPC</h4>
+                            <p class="elegant-text">International Press Corps</p>
+                            <p><strong>Chair:</strong> <span class="accent-text">Aarav Mittal</span></p>
+                            <p class="agenda-preview">Press Coverage and Creative Journalism Excellence</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Complete Messages Section -->
+            <section class="messages">
+                <div class="container">
+                    <h2>Messages from the Secretariat</h2>
+                    <div class="messages-grid">
+                        <div class="card message-card">
+                            <div class="card__body">
+                                <h3>Message from the Secretary-General</h3>
+                                <p class="author">— Aarav Dhanuka</p>
+                                <p>Esteemed delegates, distinguished guests, and honorable members of the international community — welcome to the tenth edition of the SelaQui International School Model United Nations Conference. This gathering is a testament to our commitment to dialogue, collaboration, and innovation among young minds.</p>
+                                <p class="accent-text">As we embark on this journey, let us reaffirm our dedication to upholding the values of cooperation and informed debate that have guided QMUN since its inception. This year's theme, 'Diplomacy in the Digital Age,' challenges us to navigate the complexities of modern international relations while maintaining the timeless principles of mutual respect and understanding.</p>
+                                <p>I encourage each delegate to engage thoughtfully, listen actively, and contribute meaningfully to the discussions ahead. Together, we can forge solutions that reflect the aspirations of a connected yet diverse global community.</p>
+                            </div>
+                        </div>
+                        <div class="card message-card">
+                            <div class="card__body">
+                                <h3>Message from the President</h3>
+                                <p class="author">— Karan Bhirani</p>
+                                <p>Welcome to QMUN'25! This year's theme, 'Diplomacy in the Digital Age,' reflects our commitment to addressing contemporary global challenges through innovative solutions and collaborative dialogue. As President, I am excited to witness the exceptional debates and resolutions that will define this conference.</p>
+                                <p class="accent-text">Our five committees will tackle pressing issues from Syrian conflict resolution to maritime security, from economic sanctions to the evolving role of traditional institutions in modern democracies. I urge all participants to approach these discussions with the gravity they deserve, bringing both passion and pragmatism to the floor.</p>
+                                <p>The future of diplomacy lies in your hands, and I have complete confidence in your ability to rise to the occasion and deliver outcomes that honor the spirit of the United Nations.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Important Dates Section - Center Aligned -->
+            <section class="key-dates">
+                <div class="container">
+                    <h2>Important Timeline</h2>
+                    <p class="section-subtitle accent-text">Mark your calendars for these crucial dates</p>
+                    <div class="dates-grid">
+                        <div class="date-item">
+                            <h4>Applications Open</h4>
+                            <p>September 15, 2025</p>
+                            <small class="elegant-text">Registration begins</small>
+                        </div>
+                        <div class="date-item">
+                            <h4>Registration Deadline</h4>
+                            <p>October 25, 2025</p>
+                            <small class="elegant-text">Final date for submissions</small>
+                        </div>
+                        <div class="date-item">
+                            <h4>Position Paper Deadline</h4>
+                            <p>October 30, 2025</p>
+                            <small class="elegant-text">Research papers due</small>
+                        </div>
+                        <div class="date-item conference-date-centered">
+                            <h4>Conference Days</h4>
+                            <p>November 1–2, 2025</p>
+                            <small class="elegant-text">The main event</small>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Committees Page with Images -->
+        <section id="committees" class="page">
+            <div class="container">
+                <h1>Our Committees</h1>
+                <p class="page-subtitle">Explore five prestigious committees, each addressing critical global challenges with sophistication and depth</p>
+                
+                <div class="committees-grid">
+                    <div class="committee-card" data-committee="unsc" tabindex="0">
+                        <div class="committee-image">
+                            <img src="https://static01.nyt.com/images/2016/09/19/world/19int-syria-1/19int-syria-1-superJumbo.jpg" alt="UN Security Council Chamber" class="committee-img">
+                        </div>
+                        <div class="committee-content">
+                            <h3>UNSC</h3>
+                            <p class="committee-full-name elegant-text">United Nations Security Council</p>
+                            <p class="committee-chair"><strong>Chair:</strong> <span class="accent-text">Aarav Dhanuka</span></p>
+                            <p class="committee-agenda">Ensuring Peace and Political Stability in Syria through Conflict De-escalation and Inclusive Transition</p>
+                            <div class="committee-features">
+                                <span class="feature-tag">Double Delegation</span>
+                                <span class="feature-tag">P5 Veto Powers</span>
+                                <span class="feature-tag">Crisis Elements</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="committee-card" data-committee="disec" tabindex="0">
+                        <div class="committee-image">
+                            <img src="https://www.usni.org/sites/default/files/styles/hero_image/public/Special-PRO-5-21%201.jpg?itok=Penjdky_" alt="Maritime Security" class="committee-img">
+                        </div>
+                        <div class="committee-content">
+                            <h3>DISEC</h3>
+                            <p class="committee-full-name elegant-text">Disarmament & International Security Committee</p>
+                            <p class="committee-chair"><strong>Chair:</strong> <span class="accent-text">Karan Bhirani</span></p>
+                            <p class="committee-agenda">Deliberation on the Peaceful Resolution of Territorial Conflicts and the Strengthening of Maritime Security Frameworks</p>
+                            <div class="committee-features">
+                                <span class="feature-tag">Large Committee</span>
+                                <span class="feature-tag">Maritime Focus</span>
+                                <span class="feature-tag">Security Analysis</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="committee-card" data-committee="ecosoc" tabindex="0">
+                        <div class="committee-image">
+                            <img src="https://static01.nyt.com/images/2025/04/03/multimedia/03dc-trump-tariffs-hvbt/03dc-trump-tariffs-hvbt-facebookJumbo.jpg" alt="Global Economy" class="committee-img">
+                        </div>
+                        <div class="committee-content">
+                            <h3>ECOSOC</h3>
+                            <p class="committee-full-name elegant-text">United Nations Economic and Social Council</p>
+                            <p class="committee-chair"><strong>Chair:</strong> <span class="accent-text">Sarwagya Raj Gupta</span></p>
+                            <p class="committee-agenda">Evaluating the Global Impact of Trade Wars and Economic Sanctions on International Markets</p>
+                            <div class="committee-features">
+                                <span class="feature-tag">Economic Focus</span>
+                                <span class="feature-tag">Trade Analysis</span>
+                                <span class="feature-tag">Global Cooperation</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="committee-card" data-committee="aippm" tabindex="0">
+                        <div class="committee-image">
+                            <img src="https://www.hindustantimes.com/ht-img/img/2025/04/06/550x309/While-genuine-concerns-must-be-addressed-thoughtfu_1743945813489.jpg" alt="Indian Parliament" class="committee-img">
+                        </div>
+                        <div class="committee-content">
+                            <h3>AIPPM</h3>
+                            <p class="committee-full-name elegant-text">All India Political Parties Meet</p>
+                            <p class="committee-chair"><strong>Chair:</strong> <span class="accent-text">Gul Chaudhary</span></p>
+                            <p class="committee-agenda">Assessing the Relevance and Functioning of the Waqf Act in a Secular Democracy</p>
+                            <div class="committee-features">
+                                <span class="feature-tag">Indian Politics</span>
+                                <span class="feature-tag">Hindi/English</span>
+                                <span class="feature-tag">Traditional Attire</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="committee-card" data-committee="ipc" tabindex="0">
+                        <div class="committee-image">
+                            <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-4.0.3&w=500&q=80" alt="Press Conference" class="committee-img">
+                        </div>
+                        <div class="committee-content">
+                            <h3>IPC</h3>
+                            <p class="committee-full-name elegant-text">International Press Corps</p>
+                            <p class="committee-chair"><strong>Chair:</strong> <span class="accent-text">Aarav Mittal</span></p>
+                            <p class="committee-agenda">Press Coverage and Creative Journalism</p>
+                            <div class="committee-features">
+                                <span class="feature-tag">Real-time Reporting</span>
+                                <span class="feature-tag">Creative Content</span>
+                                <span class="feature-tag">Double Delegation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Registration Page with Google Forms -->
+        <section id="registration" class="page">
+            <div class="container">
+                <h1>Registration</h1>
+                <p class="page-subtitle">Join QMUN'25 and embark on your diplomatic journey with us</p>
+                
+                <div class="registration-content">
+                    <div class="card featured-card">
+                        <div class="card__body">
+                            <h3>Registration Investment</h3>
+                            <p class="elegant-text">Your investment in diplomatic excellence and personal growth</p>
+                            <div class="fee-structure">
+                                <div class="fee-item">
+                                    <h4>Individual Delegate</h4>
+                                    <p class="fee">₹5,000</p>
+                                    <small class="elegant-text">Per delegate registration</small>
+                                </div>
+                                <div class="fee-item">
+                                    <h4>School Delegation</h4>
+                                    <p class="fee">₹6,000</p>
+                                    <small class="elegant-text">Institutional registration fee</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__body">
+                            <h3>Online Registration Portal</h3>
+                            <p class="elegant-text">Secure your place at QMUN'25 through our official Google Forms</p>
+                            <div class="registration-links">
+                                <a href="https://forms.google.com/delegate-registration-qmun25" target="_blank" class="btn btn--primary btn--full-width btn--lg">
+                                    <span>Delegate Registration Form</span>
+                                </a>
+                                <a href="https://forms.google.com/school-registration-qmun25" target="_blank" class="btn btn--secondary btn--full-width btn--lg">
+                                    <span>School Registration Form</span>
+                                </a>
+                                <a href="https://forms.google.com/accommodation-qmun25" target="_blank" class="btn btn--outline btn--full-width btn--lg">
+                                    <span>Accommodation Request Form</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__body">
+                            <h3>Payment Information</h3>
+                            <p><strong>Payment Method:</strong> <span class="accent-text">Demand draft in favour of SelaQui International School payable at Dehradun</span></p>
+                            
+                            <h4>Banking Details</h4>
+                            <div class="bank-details">
+                                <div class="bank-row">
+                                    <span class="bank-label">Account Name:</span>
+                                    <span class="bank-value">SELAQUI INTERNATIONAL SCHOOL</span>
+                                </div>
+                                <div class="bank-row">
+                                    <span class="bank-label">Account Number:</span>
+                                    <span class="bank-value">10901537403</span>
+                                </div>
+                                <div class="bank-row">
+                                    <span class="bank-label">Bank Name:</span>
+                                    <span class="bank-value">State Bank of India</span>
+                                </div>
+                                <div class="bank-row">
+                                    <span class="bank-label">Branch:</span>
+                                    <span class="bank-value">4, CONVENT ROAD, DEHRADUN, UTTARAKHAND</span>
+                                </div>
+                                <div class="bank-row">
+                                    <span class="bank-label">IFSC Code:</span>
+                                    <span class="bank-value">SBIN0000630</span>
+                                </div>
+                                <div class="bank-row">
+                                    <span class="bank-label">Swift Code:</span>
+                                    <span class="bank-value">SBININBB380</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Enhanced Team Page with John Doe Deputies and Additional Members -->
+        <section id="team" class="page">
+            <div class="container">
+                <h1>Our Distinguished Secretariat</h1>
+                <p class="page-subtitle">Meet the dedicated leaders orchestrating QMUN'25 with passion and excellence</p>
+                
+                <div class="team-grid">
+                    <!-- Leadership Team -->
+                    <div class="card team-card featured-member">
+                        <div class="card__body">
+                            <div class="member-image-placeholder" data-initials="AD">
+                                <span class="member-initials">AD</span>
+                            </div>
+                            <h3>Aarav Dhanuka</h3>
+                            <p class="role elegant-text">Secretary-General & UNSC Chair</p>
+                            <p class="email">dhanuka.aarav@gmail.com</p>
+                            <p class="member-quote accent-text">"Leading diplomatic excellence through innovation and collaboration"</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card team-card featured-member">
+                        <div class="card__body">
+                            <div class="member-image-placeholder" data-initials="KB">
+                                <span class="member-initials">KB</span>
+                            </div>
+                            <h3>Karan Bhirani</h3>
+                            <p class="role elegant-text">President & DISEC Chair</p>
+                            <p class="email">karanbhirani26@gmail.com</p>
+                            <p class="member-quote accent-text">"Fostering global understanding through youth diplomacy"</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Committee Chairs with Deputies and Rapporteurs -->
+                    <div class="card team-card">
+                        <div class="card__body">
+                            <div class="member-image-placeholder" data-initials="SG">
+                                <span class="member-initials">SG</span>
+                            </div>
+                            <h3>Sarwagya Raj Gupta</h3>
+                            <p class="role elegant-text">ECOSOC Chair</p>
+                            <p class="member-quote accent-text">"Bridging economics and diplomacy for global prosperity"</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card team-card">
+                        <div class="card__body">
+                            <div class="member-image-placeholder" data-initials="GC">
+                                <span class="member-initials">GC</span>
+                            </div>
+                            <h3>Gul Chaudhary</h3>
+                            <p class="role elegant-text">AIPPM Chair</p>
+                            <p class="member-quote accent-text">"Exploring India's democratic discourse with depth"</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card team-card">
+                        <div class="card__body">
+                            <div class="member-image-placeholder" data-initials="AM">
+                                <span class="member-initials">AM</span>
+                            </div>
+                            <h3>Aarav Mittal</h3>
+                            <p class="role elegant-text">IPC Chair</p>
+                            <p class="member-quote accent-text">"Chronicling diplomatic history through creative journalism"</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Deputy Chairs -->
+                    <div class="card team-card">
+                        <div class="card__body">
+                            <div class="member-image-placeholder" data-initials="JD">
+                                <span class="member-initials">JD</span>
+                            </div>
+                            <h3>John Doe</h3>
+                            <p class="role elegant-text">UNSC Deputy Chair</p>
+                            <p class="member-quote accent-text">"Supporting diplomatic excellence in crisis resolution"</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card team-card">
+                        <div class="card__body">
+                            <div class="member-image-placeholder" data-initials="JD">
+                                <span class="member-initials">JD</span>
+                            </div>
+                            <h3>John Doe</h3>
+                            <p class="role elegant-text">DISEC Deputy Chair</p>
+                            <p class="member-quote accent-text">"Enhancing maritime security discussions"</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card team-card">
+                        <div class="card__body">
+                            <div class="member-image-placeholder" data-initials="JD">
+                                <span class="member-initials">JD</span>
+                            </div>
+                            <h3>John Doe</h3>
+                            <p class="role elegant-text">ECOSOC Deputy Chair</p>
+                            <p class="member-quote accent-text">"Facilitating economic policy debates"</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card team-card">
+                        <div class="card__body">
+                            <div class="member-image-placeholder" data-initials="JD">
+                                <span class="member-initials">JD</span>
+                            </div>
+                            <h3>John Doe</h3>
+                            <p class="role elegant-text">AIPPM Deputy Chair</p>
+                            <p class="member-quote accent-text">"Supporting Indian political discourse"</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card team-card">
+                        <div class="card__body">
+                            <div class="member-image-placeholder" data-initials="JD">
+                                <span class="member-initials">JD</span>
+                            </div>
+                            <h3>John Doe</h3>
+                            <p class="role elegant-text">IPC Deputy Chair</p>
+                            <p class="member-quote accent-text">"Assisting in press coverage coordination"</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Rapporteurs -->
+                    <div class="card team-card">
+                        <div class="card__body">
+                            <div class="member-image-placeholder" data-initials="JD">
+                                <span class="member-initials">JD</span>
+                            </div>
+                            <h3>Jane Doe</h3>
+                            <p class="role elegant-text">UNSC Rapporteur</p>
+                            <p class="member-quote accent-text">"Documenting diplomatic proceedings with precision"</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card team-card">
+                        <div class="card__body">
+                            <div class="member-image-placeholder" data-initials="JD">
+                                <span class="member-initials">JD</span>
+                            </div>
+                            <h3>Jane Doe</h3>
+                            <p class="role elegant-text">DISEC Rapporteur</p>
+                            <p class="member-quote accent-text">"Recording maritime security deliberations"</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card team-card">
+                        <div class="card__body">
+                            <div class="member-image-placeholder" data-initials="JD">
+                                <span class="member-initials">JD</span>
+                            </div>
+                            <h3>Jane Doe</h3>
+                            <p class="role elegant-text">ECOSOC Rapporteur</p>
+                            <p class="member-quote accent-text">"Capturing economic policy discussions"</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card team-card">
+                        <div class="card__body">
+                            <div class="member-image-placeholder" data-initials="JD">
+                                <span class="member-initials">JD</span>
+                            </div>
+                            <h3>Jane Doe</h3>
+                            <p class="role elegant-text">AIPPM Rapporteur</p>
+                            <p class="member-quote accent-text">"Recording Indian parliamentary procedures"</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card team-card">
+                        <div class="card__body">
+                            <div class="member-image-placeholder" data-initials="JD">
+                                <span class="member-initials">JD</span>
+                            </div>
+                            <h3>Jane Doe</h3>
+                            <p class="role elegant-text">IPC Rapporteur</p>
+                            <p class="member-quote accent-text">"Supporting press corps documentation"</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Additional Team Members -->
+                    <div class="card team-card">
+                        <div class="card__body">
+                            <div class="member-image-placeholder" data-initials="AS">
+                                <span class="member-initials">AS</span>
+                            </div>
+                            <h3>Alex Smith</h3>
+                            <p class="role elegant-text">Chief Photographer</p>
+                            <p class="member-quote accent-text">"Capturing diplomatic moments for posterity"</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card team-card">
+                        <div class="card__body">
+                            <div class="member-image-placeholder" data-initials="SJ">
+                                <span class="member-initials">SJ</span>
+                            </div>
+                            <h3>Sam Johnson</h3>
+                            <p class="role elegant-text">IT Head</p>
+                            <p class="member-quote accent-text">"Ensuring seamless technological support"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Page -->
+        <section id="contact" class="page">
+            <div class="container">
+                <h1>Connect With Us</h1>
+                <p class="page-subtitle">We're here to assist you on your diplomatic journey</p>
+                
+                <div class="contact-content">
+                    <div class="card">
+                        <div class="card__body">
+                            <h3>School Information</h3>
+                            <div class="contact-info-grid">
+                                <div class="contact-item">
+                                    <h4>Our Address</h4>
+                                    <p class="elegant-text">SelaQui International School<br>Rajpur Road, Dehradun<br>Uttarakhand 248001, India</p>
+                                </div>
+                                <div class="contact-item">
+                                    <h4>Email</h4>
+                                    <p>qmun@selaqui.org and sis.1717@selaqui.org</p>
+                                </div>
+                                <div class="contact-item">
+                                    <h4>Website</h4>
+                                    <p><a href="https://www.selaqui.org" target="_blank" class="elegant-text">www.selaqui.org</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Policy Pages -->
+        <section id="dress-code" class="page policy-page">
+            <div class="container">
+                <div class="breadcrumb">
+                    <button class="btn btn--outline back-btn" data-page="home">← Back to Home</button>
+                </div>
+                <h1>Dress Code Policy</h1>
+                <p class="page-subtitle">Professional attire guidelines ensuring dignity and respect in diplomatic proceedings</p>
+                
+                <div class="policy-content">
+                    <div class="card">
+                        <div class="card__body">
+                            <h3>Western Formal Attire</h3>
+                            <div class="attire-grid">
+                                <div class="attire-section">
+                                    <h4>For Gentlemen</h4>
+                                    <ul>
+                                        <li>Business suits</li>
+                                        <li>Formal shirts</li>
+                                        <li>Professional ties</li>
+                                        <li>Leather dress shoes</li>
+                                    </ul>
+                                </div>
+                                <div class="attire-section">
+                                    <h4>For Ladies</h4>
+                                    <ul>
+                                        <li>Professional blazers and skirts</li>
+                                        <li>Formal dresses</li>
+                                        <li>Closed-toe formal shoes</li>
+                                        <li>Conservative blouses</li>
+                                        <li>Minimal, professional jewelry</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card__body">
+                            <h3>Indian Traditional Attire</h3>
+                            <div class="attire-grid">
+                                <div class="attire-section">
+                                    <h4>For Gentlemen</h4>
+                                    <ul>
+                                        <li>Kurta-Pajama</li>
+                                        <li>Nehru jackets</li>
+                                        <li>Formal leather shoes or mojaris</li>
+                                    </ul>
+                                </div>
+                                <div class="attire-section">
+                                    <h4>For Ladies</h4>
+                                    <ul>
+                                        <li>Salwar-Kameez</li>
+                                        <li>Elegant sarees</li>
+                                        <li>Formal footwear</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="position-paper" class="page policy-page">
+            <div class="container">
+                <div class="breadcrumb">
+                    <button class="btn btn--outline back-btn" data-page="home">← Back to Home</button>
+                </div>
+                <h1>Position Paper Guidelines</h1>
+                <p class="page-subtitle">Comprehensive guide for preparing and submitting exceptional position papers</p>
+                
+                <div class="policy-content">
+                    <div class="card highlight-card">
+                        <div class="card__body">
+                            <h3>Submission Deadline</h3>
+                            <p class="deadline-emphasis">October 30, 2025</p>
+                            <p class="elegant-text">Submit directly to your committee Chair via email</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card__body">
+                            <h3>Required Sections</h3>
+                            <div class="section-grid">
+                                <div class="section-item">
+                                    <h4>1. National Interests</h4>
+                                    <p>Articulate your country's ultimate aspirations and strategic objectives</p>
+                                </div>
+                                <div class="section-item">
+                                    <h4>2. National Policies</h4>
+                                    <p>Detail concrete actions your country has taken or plans to implement</p>
+                                </div>
+                                <div class="section-item">
+                                    <h4>3. Analysis of Solutions</h4>
+                                    <p>Provide thoughtful perspective on potential solutions</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="it-policy" class="page policy-page">
+            <div class="container">
+                <div class="breadcrumb">
+                    <button class="btn btn--outline back-btn" data-page="home">← Back to Home</button>
+                </div>
+                <h1>Information Technology Policy</h1>
+                <p class="page-subtitle">Guidelines for responsible technology use during conference sessions</p>
+                
+                <div class="policy-content">
+                    <div class="card">
+                        <div class="card__body">
+                            <h3>Permitted Devices</h3>
+                            <ul class="policy-list">
+                                <li><strong>Laptops:</strong> For research and note-taking purposes</li>
+                                <li><strong>Tablets:</strong> Digital note-taking and document access</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Individual Committee Pages -->
+        <section id="unsc" class="page committee-page">
+            <div class="container">
+                <div class="breadcrumb">
+                    <button class="btn btn--outline back-btn" data-page="committees">← Back to Committees</button>
+                </div>
+                <div class="committee-header">
+                    <h1>United Nations Security Council</h1>
+                    <p class="committee-chair">Chair: <span class="accent-text">Aarav Dhanuka</span> | Email: dhanuka.aarav@gmail.com</p>
+                </div>
+                
+                <div class="agenda-hero">
+                    <img src="https://static01.nyt.com/images/2016/09/19/world/19int-syria-1/19int-syria-1-superJumbo.jpg" alt="UN Security Council Chamber" class="agenda-image">
+                    <div class="agenda-overlay">
+                        <h2 class="agenda-title">Ensuring Peace and Political Stability in Syria through Conflict De-escalation and Inclusive Transition</h2>
+                    </div>
+                </div>
+                
+                <div class="committee-content">
+                    <div class="card">
+                        <div class="card__body">
+                            <h3>About the Committee</h3>
+                            <p class="elegant-text">​
+
+Dear Delegates,
+
+​
+
+I, Aarav Dhanuka, the Secretary-General of the 2025 SelaQui International School Model United Nations Conference (QMUN) and the Chairperson of the United Nations Security Council, extend a warm welcome to each one of you.
+
+​
+
+As future diplomats and leaders, you hold an essential responsibility in shaping a world rooted in peace, cooperation, and justice. QMUN provides a dynamic platform to sharpen your skills in diplomacy, negotiation, and critical thinking — skills that are more relevant than ever in today’s turbulent world.
+
+​
+
+<br><br>This year, the United Nations Security Council will convene to deliberate on the agenda: “Ensuring Peace and Political Stability in Syria through Conflict De-escalation and Inclusive Transition.” The crisis in Syria continues to pose one of the gravest threats to global peace and regional stability. Delegates will be called upon to engage in high-level discourse, propose realistic solutions, and strive for consensus in the face of geopolitical complexity.
+
+​
+
+<br><br>A detailed background guide will be shared to provide a strong foundation for your research, outlining key facts, perspectives, and points of debate. However, your success in committee will depend on going beyond the guide — through independent research, strategic thinking, and unwavering advocacy for your nation’s policies and priorities.
+
+​
+
+<br><br>I am confident that your dedication, intellect, and diplomacy will make this simulation not only impactful but also unforgettable.
+
+​
+
+<br><br>Wishing you all the very best — I look forward to seeing the Security Council in action.
+
+​<br>
+<br>
+Warm regards,
+<br>
+Aarav Dhanuka
+<br>
+Secretary-General
+<br>
+QMUN 2025
+<br>
+dhanuka.aarav@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="disec" class="page committee-page">
+            <div class="container">
+                <div class="breadcrumb">
+                    <button class="btn btn--outline back-btn" data-page="committees">← Back to Committees</button>
+                </div>
+                <div class="committee-header">
+                    <h1>Disarmament & International Security Committee</h1>
+                    <p class="committee-chair">Chair: <span class="accent-text">Karan Bhirani</span> | Email: karanbhirani26@gmail.com</p>
+                </div>
+                
+                <div class="agenda-hero">
+                    <img src="https://www.usni.org/sites/default/files/styles/hero_image/public/Special-PRO-5-21%201.jpg?itok=Penjdky_" alt="Maritime Security Operations" class="agenda-image">
+                    <div class="agenda-overlay">
+                        <h2 class="agenda-title">Deliberation on the Peaceful Resolution of Territorial Conflicts and the Strengthening of Maritime Security Frameworks</h2>
+                    </div>
+                </div>
+                
+                <div class="committee-content">
+                    <div class="card">
+                        <div class="card__body">
+                            <h3>About the Committee</h3>
+                            <p class="elegant-text">Dear Delegates,
+
+                                ​
+                                
+                                I am Karan Bhirani, both the President of the SelaQui International School Model United Nations Conference (QMUN) 2025 and the Chair of the Disarmament and International Security Committee (DISEC). It is my great privilege to warmly welcome you to this conference.
+                                
+                                ​<br>
+                                ​<br>
+                                This year, DISEC will be addressing a critically important agenda: “Deliberation on the Peaceful Resolution of Territorial Conflicts and the Strengthening of Maritime Security Frameworks in Strategically Vital International Trade Corridors.”
+                                
+                                As global tensions rise over territorial disputes and the security of key maritime trade routes, ensuring the safety and stability of these crucial international waters is more important than ever. As delegates, you will engage in complex discussions on how to resolve territorial conflicts, enhance cooperative frameworks, and ensure that international maritime trade remains secure and uninterrupted.
+                                
+                                ​​<br>​<br>
+                                
+                                A comprehensive background guide will be provided to assist you in understanding the key issues and areas for discussion. However, the true success of your role will depend on your independent research, diplomatic skill, and ability to collaborate with others to find peaceful and effective solutions to these pressing challenges.
+                                
+                                I have full confidence in your intellectual capacity, diplomatic finesse, and commitment to peace. Let this conference be a space where creative solutions are born, diverse perspectives are valued, and meaningful progress is made toward a safer, more secure maritime future.
+                                
+                                ​​<br>​<br>
+                                
+                                I look forward to a challenging, insightful, and productive conference.
+                                
+                                ​​<br>​<br>
+                                
+                                Best regards,​<br>
+                                Karan Bhirani​<br>
+                                President, QMUN 2025​<br>
+                                Chair, DISEC​<br>
+                                karanbhirani26@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ecosoc" class="page committee-page">
+            <div class="container">
+                <div class="breadcrumb">
+                    <button class="btn btn--outline back-btn" data-page="committees">← Back to Committees</button>
+                </div>
+                <div class="committee-header">
+                    <h1>United Nations Economic and Social Council</h1>
+                    <p class="committee-chair">Chair: <span class="accent-text">Sarwagya Raj Gupta</span></p>
+                </div>
+                
+                <div class="agenda-hero">
+                    <img src="https://static01.nyt.com/images/2025/04/03/multimedia/03dc-trump-tariffs-hvbt/03dc-trump-tariffs-hvbt-facebookJumbo.jpg" alt="International Trade and Economics" class="agenda-image">
+                    <div class="agenda-overlay">
+                        <h2 class="agenda-title">Evaluating the Global Impact of Trade Wars and Economic Sanctions on International Markets</h2>
+                    </div>
+                </div>
+                
+                <div class="committee-content">
+                    <div class="card">
+                        <div class="card__body">
+                            <h3>About the Committee</h3>
+                            <p class="elegant-text">​​​
+                                <BR>​
+                                Dear Delegates,
+                                
+                                ​<BR>​<BR>
+                                
+                                I, Sarwagya Raj Gupta, the Chair of the United Nations Economic and Social Council (ECOSOC) for the 2025 SelaQui International School Model United Nations Conference (QMUN), extend a warm welcome to you all.
+                                
+                                <BR>​​<BR>
+                                
+                                This year’s agenda — “Evaluating the Global Impact of Trade Wars and Economic Sanctions on International Markets” — is one of great contemporary relevance. In a world increasingly shaped by shifting alliances, protectionist policies, and geopolitical tensions, the ripple effects of economic confrontations are being felt across borders. From supply chain disruptions to inflationary pressures and market instability, the implications are far-reaching and complex.
+                                
+                                ​<BR>​<BR>
+                                
+                                As delegates, you are tasked with dissecting these challenges and proposing balanced, innovative solutions. ECOSOC is a platform that requires not only an understanding of international economics and trade dynamics but also empathy for the human cost of these policies.
+                                
+                                ​​<BR>​<BR>
+                                
+                                A background guide will provide you with a foundation, but it is your independent research, critical thinking, and diplomatic skill that will truly drive the debate forward. We encourage you to analyze data, understand national perspectives, and propose sustainable frameworks for global cooperation.
+                                
+                                ​​<BR>​<BR>
+                                
+                                I look forward to watching your ideas unfold and your diplomacy in action. May this committee be filled with thoughtful engagement and transformative dialogue.
+                                
+                                ​​<BR>​<BR>
+                                
+                                See you in committee!
+                                ​<BR>​<BR>
+                                Best regards,​<BR>
+                                Sarwagya Raj Gupta​<BR>
+                                Chair, ECOSOC – QMUN 2025</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="aippm" class="page committee-page">
+            <div class="container">
+                <div class="breadcrumb">
+                    <button class="btn btn--outline back-btn" data-page="committees">← Back to Committees</button>
+                </div>
+                <div class="committee-header">
+                    <h1>All India Political Parties Meet</h1>
+                    <p class="committee-chair">Chair: <span class="accent-text">Gul Chaudhary</span></p>
+                </div>
+                
+                <div class="agenda-hero">
+                    <img src="https://www.hindustantimes.com/ht-img/img/2025/04/06/550x309/While-genuine-concerns-must-be-addressed-thoughtfu_1743945813489.jpg" alt="Indian Parliament and Democracy" class="agenda-image">
+                    <div class="agenda-overlay">
+                        <h2 class="agenda-title">Assessing the Relevance and Functioning of the Waqf Act in a Secular Democracy</h2>
+                    </div>
+                </div>
+                
+                <div class="committee-content">
+                    <div class="card">
+                        <div class="card__body">
+                            <h3>About the Committee</h3>
+                            <p class="elegant-text">​
+
+
+
+                                To the Delegates,
+                                
+                                I, Gul Chaudhary, the Chair of the All India Political Parties Meet (AIPPM), extend a warm and cordial welcome to the ninth edition of QMUN, 2025. We are delighted to have you as part of this intellectually engaging committee and look forward to two days of rich discourse and impactful resolutions.
+                                
+                                ​<BR>​<BR>
+                                
+                                The agenda before us — “Assessing the Relevance and Functioning of the Waqf Act in a Secular Democracy” — is one that strikes at the heart of India’s constitutional ethos. It raises important questions on the balance between religious administration and secular governance, and it demands from you a nuanced, well-reasoned approach rooted in political awareness and legal understanding.
+                                
+                                ​​<BR>​<BR>
+                                
+                                To help guide your research, we have provided a background guide. However, we strongly encourage you to go beyond its scope — to dig deeper, analyze diverse perspectives, and come prepared with arguments that reflect both your portfolio's ideology and the broader national interest.
+                                
+                                ​​<BR>​<BR>
+                                
+                                Each portfolio has been assigned with careful thought, ensuring that every delegate plays a meaningful role in shaping the direction of this conversation. The AIPPM is not a mere debate — it is a political battlefield where diplomacy, rhetoric, and logic converge.
+                                
+                                ​​<BR>​<BR>
+                                
+                                We trust that your participation will reflect passion, preparation, and a commitment to constructive dialogue.
+                                
+                                ​<BR>​<BR>
+                                
+                                Wishing you all the best!
+                                ​<BR>​<BR>
+                                Gul Chaudhary​<BR>​
+                                Chair, AIPPM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ipc" class="page committee-page">
+            <div class="container">
+                <div class="breadcrumb">
+                    <button class="btn btn--outline back-btn" data-page="committees">← Back to Committees</button>
+                </div>
+                <div class="committee-header">
+                    <h1>International Press Corps</h1>
+                    <p class="committee-chair">Chair: <span class="accent-text">Aarav Mittal</span></p>
+                </div>
+                
+                <div class="agenda-hero">
+                    <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-4.0.3&w=1200&q=80" alt="International Press Conference" class="agenda-image">
+                    <div class="agenda-overlay">
+                        <h2 class="agenda-title">Press Coverage and Creative Journalism</h2>
+                    </div>
+                </div>
+                
+                <div class="committee-content">
+                    <div class="card">
+                        <div class="card__body">
+                            <h3>About the Committee</h3>
+                            <p class="elegant-text">​
+
+                                Dear Delegates,
+                                
+                                ​<br>​<br>
+                                
+                                I am honoured to welcome you to the QMUN'25 International Press Corps (IPC). My name is Aarav Mittal, and I have the privilege of serving as your IPC Chairperson.
+                                
+                                ​​<br>​<br>
+                                
+                                Unlike other committees where debate and negotiation take the lead, the IPC committee at QMUN is driven by the power of words and the art of reporting. You will step into the role of a journalist — using your writing to communicate, inform, and influence. This is where the famous adage, “The pen is mightier than the sword,” holds true.
+                                
+                                ​​<br>​<br>
+                                
+                                Here in IPC, we recognize the immense responsibility of the press to provide unbiased, objective, and impactful coverage. The media holds the unique ability to shape public opinion, define narratives, and hold power to account. Therefore, as delegates of IPC, your ability to adopt neutrality, objectivity, and transparency is vital in achieving success.
+                                
+                                ​​<br>​<br>
+                                
+                                To enhance the experience at QMUN, we are excited to feature ‘Originals’ in the press coverage. Delegates are invited to submit creative content — such as a short documentary capturing key moments, caricatures illustrating significant events, or any form of creative writing like poems, sonnets, or comics. Selected ‘Originals’ will be featured in the QMUN newsletter.
+                                
+                                ​<br>​<br>
+                                Your organisation, creativity, and precision in reporting will be the foundation of your success in IPC. I am confident that your skills will contribute to a vibrant and effective press presence throughout the conference.
+                                
+                                ​​<br>​<br>
+                                
+                                Wishing everyone the best of luck!
+                                ​<br>​<br>
+                                Aarav Mittal​<br>
+                                Chair, International Press Corps – QMUN 2025</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Professional Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>QMUN'25</h3>
+                    <p class="footer-theme elegant-text">SelaQui International School Model United Nations</p>
+                    <p class="footer-theme elegant-text">समिधां च समगच्छत्।</p>
+                    <p class="footer-theme elegant-text">"Seek to unite and bring together"</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#committees" data-page="committees">Committees</a></li>
+                        <li><a href="#registration" data-page="registration">Registration</a></li>
+                        <li><a href="#team" data-page="team">Our Team</a></li>
+                        <li><a href="#contact" data-page="contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Important Dates</h4>
+                    <ul class="footer-dates">
+                        <li>Registration Deadline: Oct 25, 2025</li>
+                        <li>Position Papers Due: Oct 30, 2025</li>
+                        <li>Conference: Nov 1-2, 2025</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="elegant-text">&copy; 2025 SelaQui International School. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
