@@ -354,7 +354,7 @@ function setupEnhancedCountdown() {
     console.log('Setting up enhanced countdown timer...');
     
     // Target date: November 1, 2025 at 9:00 AM IST
-    const targetDate = new Date('2025-11-01T09:00:00+05:30').getTime();
+    const targetDate = new Date('2025-11-12T09:00:00+05:30').getTime();
     
     function updateCountdownWithAnimation() {
         const now = new Date().getTime();
